@@ -22,8 +22,10 @@ public class uri1038 {
 		else if (codigo == 4) {
 			total = quantidade * 2.0;
 		}
-		else {
+		else if (codigo == 5 {
 			total = quantidade * 1.5;
+		} else {
+			System.out.printf("Código inválido");
 		}
 
 		System.out.printf("Total: R$ %.2f%n", total);
